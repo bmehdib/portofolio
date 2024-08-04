@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <header>
+      <h2>Mehdi</h2>
+      <nav>
+        <a href="#intro"><span>#</span>خانه</a>
+        <a href="#aboutSection"><span>#</span>درباره من</a>
+        <a href="#contactSection"><span>#</span>ارتباط</a>
+      </nav>
+    </header>
+    <section id="intro" class="intro">
+      <div class="logo">
+        <img src="./hovering-objects/Logo.png" alt="" />
+      </div>
+      <div class="dots">
+        <img src="./hovering-objects/Dots.png" alt="" />
+      </div>
+      <div class="dots2">
+        <img src="./hovering-objects/Dots.png" alt="" />
+      </div>
+      <div class="row1 text-3xl font-bold">
+        <h1>
+          من یک <span class="text-primatycolor">توسعه دهنده فرانت </span> هستم
+        </h1>
+        <p class="text-lg opacity-70 font-normal">
+          ساخت وبسایت های شما بصورت ریسپانسیو
+        </p>
+        <a href="#contactSection" class="btn text-sm">ارتباط با من</a>
+      </div>
+      <div class="row2 max-w-xl relative">
+        <img src="./images/mehdi.png" alt="my-pic" />
+        <div class="box font-bold">
+          وضعیت: <span class="text-primatycolor">در دسترس</span>
+        </div>
+      </div>
+      <div class="row3">
+        <img src="./svg/quote.svg" alt="" />
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h1 class="skill text-4xl text-bold">
+        <span class="text-primatycolor">#</span>مهارت ها
+      </h1>
+      <div class="mainwrapper lg:ml-80 grid grid-cols-2 gap-8 mt-8">
+        <div class="wrapper Language">
+          <h2>زبانها</h2>
+          <p>انگلیسی،فارسی</p>
+        </div>
+        <div class="wrapper framework">
+          <h2>فریم وورک</h2>
+          <p>VueJs,tailwindcss</p>
+        </div>
+        <div class="wrapper code">
+          <h2>زبان برنامه نویسی</h2>
+          <p>جاوا اسکریپت،اچ تی ام ال ، سی اس اس</p>
+        </div>
+      </div>
+    </section>
+    <section id="aboutSection" class="about-me">
+      <h1 class="about text-4xl text-bold">
+        <span class="text-primatycolor">#</span>درباره من
+      </h1>
+      <p class="text-gray max-w-xl leading-9">
+        .محمد مهدی بیگی ساکن شیراز متولد 83 دانشجو هستم در حوزه برنامه نویسی
+        فرانت وب کار میکنم (درحال یادگیری بیشتر)
+        <br />
+        my name is Mehdi i'm a frontend web developer (atleast trying to be)
+        student of computer science in college borned in april 2004.
+      </p>
+      <p id="text" class="hidden">
+        چیز خاصه دیگه ای نیست این دکمه رو برا قشنگی گذاشتم ولی مرسی از پیگیریتون
+      </p>
+      <button id="togglebtn" class="btn mt-6">خواندن بیشتر</button>
+    </section>
+    <section id="contactSection" class="contact-me">
+      <div>
+        <h1 class="contact text-4xl text-bold">
+          <span class="text-primatycolor">#</span>ارتباط
+        </h1>
+        <p class="text-gray max-w-xl leading-9">
+          اگر دنبال فریلتسر برای پروژه خودتون میگردید خوشحال میشم کمکتون کنم
+          <br />
+          if you are lloking for a freelancer i'd be happy to help
+        </p>
+      </div>
+      <div class="my-link flex flex-col">
+        <h1 class="mb-3">از اینجا میتونید ارتباط برقرار کنید</h1>
+        <div>
+          <a
+            class="flex"
+            target="_blank"
+            href="https://www.instagram.com/mehd1.beigi"
+          >
+            <img class="w-10" src="./images/instagram.png" alt="" />
+            <p>اینستاگرام</p>
+          </a>
+        </div>
+        <div>
+          <a class="flex" target="_blank" href="https://github.com/bmehdib">
+            <img src="./images/Github.png" alt="" />
+            <p>گیت هاب</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
+  <script src="main.js"></script>
+</html>
